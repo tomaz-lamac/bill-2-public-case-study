@@ -83,17 +83,16 @@ My contribution focuses on:
 - converting recurring failures into reusable tests, guardrails, contracts, or procedures;
 - making the final accept / reject / refine decision from evidence.
 
-## Why this matters for data quality and AI work
+## Validation principles that emerged from the project
 
-BILL 2.0 repeatedly requires the same habits that matter in quality-oriented AI and data operations:
+As BILL 2.0 evolved, several operating principles became explicit parts of the development method:
 
-- apply explicit criteria consistently;
-- verify outputs instead of assuming plausibility implies correctness;
-- identify ambiguous, incomplete, or inconsistent results;
-- document why something was accepted or rejected;
-- detect recurring failure patterns;
-- escalate uncertainty rather than silently inventing an answer;
-- preserve evidence so another reviewer can reproduce the decision.
+intended behavior is defined separately from implementation;
+technically successful execution is not sufficient evidence of correctness;
+acceptance depends on reproducible tests, operational evidence, and observed behavior;
+uncertain or incomplete evidence remains explicitly unresolved rather than being silently inferred;
+recurring failures are converted into reusable tests, contracts, guardrails, or procedures;
+state and evidence are preserved so later sessions can investigate, reproduce, recover, and continue the work without reconstructing prior reasoning from memory.
 
 ## Public case study
 
