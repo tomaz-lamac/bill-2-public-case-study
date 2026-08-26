@@ -1,0 +1,31 @@
+{
+  "example_only": true,
+  "note": "Sanitized illustrative structure. This is not a production receipt and does not expose private operational identifiers.",
+  "status": "HOSTED_OPERATION_COMPLETED",
+  "operation_id": "op_example_execution",
+  "generated_at": "2026-08-25T15:00:00Z",
+  "request_sha256": "bbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbbb",
+  "idempotency_key": "example-idempotency-key",
+  "artifacts": [
+    {
+      "logical_name": "qualified_result",
+      "sha256": "cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc",
+      "write_status": "IMMUTABLE"
+    }
+  ],
+  "results": {
+    "qualification": "QUALIFIED",
+    "readback": "MATCHED_EXPECTED_POSTCONDITION"
+  },
+  "boundaries": {
+    "browser_financial_math_allowed": false,
+    "canonical_source_mutated": false,
+    "provider_boundary_crossed": true,
+    "secrets_persisted": false
+  },
+  "traceability": {
+    "request_bound_to_result": true,
+    "artifact_hashes_recorded": true,
+    "recovery_reference_available": true
+  }
+}

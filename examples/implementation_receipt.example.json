@@ -1,0 +1,37 @@
+{
+  "example_only": true,
+  "note": "Sanitized illustrative structure. This is not a production receipt and does not expose private operational identifiers.",
+  "contract": "bill_patch_application_receipt",
+  "schema_version": "1.0.0",
+  "status": "APPLIED",
+  "operation_id": "op_example_implementation",
+  "receipt_id": "receipt_example_implementation",
+  "recorded_at": "2026-08-25T12:00:00-03:00",
+  "patch": {
+    "reference": "PXXX",
+    "artifact_sha256": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+  },
+  "git": {
+    "commit": "<private-commit-redacted>",
+    "working_tree_before": "CLEAN",
+    "working_tree_after": "CLEAN"
+  },
+  "application": {
+    "result": "APPLIED",
+    "validation": "QUALIFIED"
+  },
+  "implementation_surface": {
+    "files_changed": 4,
+    "files_added": 1,
+    "files_modified": 3,
+    "files_deleted": 0,
+    "changed_paths": [
+      "<redacted-public-example>"
+    ]
+  },
+  "operational_boundary": {
+    "provider_mutation": false,
+    "secrets_persisted": false,
+    "receipt_is_evidence": true
+  }
+}
